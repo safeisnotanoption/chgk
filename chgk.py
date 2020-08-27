@@ -25,5 +25,3 @@ for tour in tours:
         data.append((q, a))
     with open('chgk.pickle', 'ab') as f:
         pickle.dump(data, f)
-        
-f.close()
